@@ -65,7 +65,7 @@ The winner of the election based on popular vote
 
 Your analysis should align with the following results:
 
-Election Results
+## Election Results
 -------------------------
 Total Votes: 369711
 -------------------------
