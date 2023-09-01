@@ -11,17 +11,17 @@ Tasks Accomplished:
 - Change Analysis: I've computed the changes in "Profit/Losses" over the entire period and found the average of those changes, providing crucial insights into financial trends.
 
 - Profit Peaks and Valleys: The script also identifies the periods with the greatest increase and decrease in profits, providing dates and corresponding amounts.
-------------------------------------------------------------------------------------------------------------------------------------------------
-Expected Results:
 
+```text
+Financial Analysis
+----------------------------
 Total Months: 86
-Total: $22,564,198
-Average Change: $-8,311.11
-Greatest Increase in Profits: Aug-16 ($1,862,002)
-Greatest Decrease in Profits: Feb-14 ($-1,825,558)
-The final script not only displays this financial analysis in the terminal but also exports it to a text file for further reference.
--------------------------------------------------------------------------------------------------------------------------------------------------
+Total: $22564198
+Average Change: $-8311.11
+Greatest Increase in Profits: Aug-16 ($1862002)
+Greatest Decrease in Profits: Feb-14 ($-1825558)
 
+```
 **PyPoll Challenge - Election Analysis**
 Tasks Accomplished:
 
@@ -35,16 +35,18 @@ Tasks Accomplished:
 
 - Election Winner: The Python script identifies the winner of the election based on the popular vote, ensuring transparency in the results.
 
--------------------------------------------------------------------------------------------------------------------------------------------------
-Expected Results:
-
-Total Votes: 369,711
-Candidates:
-Charles Casper Stockham: 23.049% (85,213 votes)
-Diana DeGette: 73.812% (272,892 votes)
-Raymon Anthony Doane: 3.139% (11,606 votes)
+```text
+Election Results
+-------------------------
+Total Votes: 369711
+-------------------------
+Charles Casper Stockham: 23.049% (85213)
+Diana DeGette: 73.812% (272892)
+Raymon Anthony Doane: 3.139% (11606)
+-------------------------
 Winner: Diana DeGette
--------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
+```
 
 Just like in the PyBank challenge, the final script for PyPoll not only displays this election analysis in the terminal but also exports it to a text file for further reference.
 
