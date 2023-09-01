@@ -1,133 +1,56 @@
-# python-challenge
+# Python Challenge - PyBank and PyPoll
+Welcome to the Python Challenge project! Let's take a closer look at the tasks completed in PyBank and PyPoll.
 
-Background
-It's time to put away the Excel sheet and enter the world of programming with Python. In this assignment, you'll use the concepts you've learned to complete two Python challenges, PyBank and PyPoll. Both tasks present a real-world situation where your newly developed Python scripting skills come in handy.
+**PyBank Challenge - Financial Analysis**
+Tasks Accomplished:
 
-# Before You Begin
-Before starting the assignment, be sure to complete the following steps:
+- Total Months Analysis: I've successfully determined the total number of months included in the financial dataset.
 
-Create a new repository for this project called python-challenge. Do not add this homework assignment to an existing repository.
+- Net Total Analysis: The Python script has calculated the net total amount of "Profit/Losses" over the entire dataset.
 
-Clone the new repository to your computer.
+- Change Analysis: I've computed the changes in "Profit/Losses" over the entire period and found the average of those changes, providing crucial insights into financial trends.
 
-Inside your local Git repository, create a folder for each Python assignment and name them PyBank and PyPoll.
+- Profit Peaks and Valleys: The script also identifies the periods with the greatest increase and decrease in profits, providing dates and corresponding amounts.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Expected Results:
 
-In each folder that you just created, add the following content:
-
-A new file called main.py. This will be the main script to run for each analysis.
-
-A Resources folder that contains the CSV files you used. Make sure that your script has the correct path to the CSV file.
-
-An analysis folder that contains your text file that has the results from your analysis.
-
-Push these changes to GitHub or GitLab.
-
-# PyBank Instructions
-In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
-
-Your task is to create a Python script that analyzes the records to calculate each of the following values:
-
-The total number of months included in the dataset
-
-The net total amount of "Profit/Losses" over the entire period
-
-The changes in "Profit/Losses" over the entire period, and then the average of those changes
-
-The greatest increase in profits (date and amount) over the entire period
-
-The greatest decrease in profits (date and amount) over the entire period
-
-Your analysis should align with the following results:
-
-## Financial Analysis
-----------------------------
 Total Months: 86
-Total: $22564198
-Average Change: $-8311.11
-Greatest Increase in Profits: Aug-16 ($1862002)
-Greatest Decrease in Profits: Feb-14 ($-1825558)
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+Total: $22,564,198
+Average Change: $-8,311.11
+Greatest Increase in Profits: Aug-16 ($1,862,002)
+Greatest Decrease in Profits: Feb-14 ($-1,825,558)
+The final script not only displays this financial analysis in the terminal but also exports it to a text file for further reference.
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
-PyPoll Instructions
-In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
+**PyPoll Challenge - Election Analysis**
+Tasks Accomplished:
 
-You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
+- Total Votes Analysis: The Python script has efficiently calculated the total number of votes cast in the election.
 
-The total number of votes cast
+- Candidates Analysis: I've compiled a complete list of candidates who received votes, providing a clear picture of the field.
 
-A complete list of candidates who received votes
+- Vote Percentage Analysis: The script has determined the percentage of votes each candidate won, revealing the popularity of each candidate.
 
-The percentage of votes each candidate won
+- Vote Tally Analysis: I've also calculated the total number of votes each candidate received, allowing us to understand their overall support.
 
-The total number of votes each candidate won
+- Election Winner: The Python script identifies the winner of the election based on the popular vote, ensuring transparency in the results.
 
-The winner of the election based on popular vote
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Expected Results:
 
-Your analysis should align with the following results:
+Total Votes: 369,711
+Candidates:
+Charles Casper Stockham: 23.049% (85,213 votes)
+Diana DeGette: 73.812% (272,892 votes)
+Raymon Anthony Doane: 3.139% (11,606 votes)
+Winner: Diana DeGette
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Election Results
--------------------------
-## Total Votes: 369711
--------------------------
-### Charles Casper Stockham: 23.049% (85213)
-### Diana DeGette: 73.812% (272892)
-### Raymon Anthony Doane: 3.139% (11606)
--------------------------
-### Winner: Diana DeGette
--------------------------
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+Just like in the PyBank challenge, the final script for PyPoll not only displays this election analysis in the terminal but also exports it to a text file for further reference.
 
-Hints and Considerations
-Consider what you've learned so far. You've learned how to import modules like csv. You’ve learned how to read and write files in various formats. You’ve learned how to store content in variables, lists, and dictionaries. You’ve learned how to iterate through basic data structures. And you’ve learned how to debug along the way. Using all that you've learned, try to break down your tasks into discrete mini-objectives.
+## Conclusion
+In summary, this Python Challenge project has successfully tackled real-world problems in both financial analysis and election analysis. Whether you're exploring the code or seeking insights from the results, this project offers valuable examples of data analysis using Python. Happy exploring!
 
-The datasets for these Challenges are quite large. This was done purposefully to showcase one of the limits of Excel-based analysis. As data analysts, our first instinct is often to go straight to Excel, but creating scripts in Python can provide us with more powerful options for handling big data.
-
-Write one script for each of the provided datasets. Run each script separately to make sure that the code works for its respective dataset.
-
-Always commit your work and back it up with pushes to GitHub or GitLab. You don't want to lose hours of your hard work! Also make sure that your repo has a detailed README.md file.
-
-Your analysis should align with the following results:
-
-## Financial Analysis
-----------------------------
-### Total Months: 86
-### Total: $22564198
-### Average Change: $-8311.11
-### Greatest Increase in Profits: Aug-16 ($1862002)
-### Greatest Decrease in Profits: Feb-14 ($-1825558)
-
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-PyPoll Instructions
-In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
-
-You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
-
-The total number of votes cast
-
-A complete list of candidates who received votes
-
-The percentage of votes each candidate won
-
-The total number of votes each candidate won
-
-The winner of the election based on popular vote
-
-Your analysis should align with the following results:
-
-## Election Results
-----------------------------
-### Total Votes: 369711
-### Charles Casper Stockham: 23.049% (85213)
-### Diana DeGette: 73.812% (272892)
-### Raymon Anthony Doane: 3.139% (11606)
--------------------------
-### Winner: Diana DeGette
--------------------------
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-The datasets for these Challenges are quite large. This was done purposefully to showcase one of the limits of Excel-based analysis. As data analysts, our first instinct is often to go straight to Excel, but creating scripts in Python can provide us with more powerful options for handling big data.
-
-Write one script for each of the provided datasets. Run each script separately to make sure that the code works for its respective dataset.
-
+## References
+Data for this dataset was generated by edX Boot Camps LLC, and is intended for educational purposes only.
 
