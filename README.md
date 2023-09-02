@@ -2,6 +2,7 @@
 Welcome to the Python Challenge project! Let's take a closer look at the tasks completed in PyBank and PyPoll.
 
 **PyBank Challenge - Financial Analysis**
+![Alt text](Images/revenue-per-lead.png)
 Tasks Accomplished:
 
 - Total Months Analysis: I've successfully determined the total number of months included in the financial dataset.
@@ -23,6 +24,7 @@ Greatest Decrease in Profits: Feb-14 ($-1825558)
 
 ```
 **PyPoll Challenge - Election Analysis**
+![Alt text](Images/Vote_counting.png)
 Tasks Accomplished:
 
 - Total Votes Analysis: The Python script has efficiently calculated the total number of votes cast in the election.
