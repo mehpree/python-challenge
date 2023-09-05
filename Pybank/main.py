@@ -2,7 +2,7 @@
 import os
 import csv
 
-csv_path = "C:\\Users\\sharm\\Desktop\\UofT BootCamp Challenges\\python-challenge\\Pybank\\Resources\\budget_data.csv"
+csv_path = "Pybank\\Resources\\budget_data.csv"
 
 
 # Initialize variables to store financial data
@@ -57,7 +57,7 @@ print(f"Greatest Increase in Profits: {greatest_increase_date} (${greatest_incre
 print(f"Greatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})")
 
 # Save the analysis results to a text file in the analysis folder
-pybank_result = "C:\\Users\\sharm\\Desktop\\UofT BootCamp Challenges\\python-challenge\\Pybank\\analysis\\"
+pybank_result = ".\\python-challenge\\Pybank\\analysis\\"
 output_file = os.path.join(pybank_result, "financial_analysis.txt")
 
 with open(output_file, "w") as textfile:
