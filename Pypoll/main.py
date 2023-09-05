@@ -3,7 +3,7 @@ import os
 
 # Set the path to the CSV file within the new directory
 # csvpath = os.path.join("PyPoll", "Resources", "election_data.csv")
-csvpath = "C:\\Users\\sharm\\Desktop\\UofT BootCamp Challenges\\python-challenge\\Pypoll\\Resources\\election_data.csv"
+csvpath = ".\\Pypoll\\Resources\\election_data.csv"
 
 
 # Initialize variables
@@ -55,7 +55,7 @@ print(f"Winner: {winner}")
 print("-------------------------")
 
 # Save the analysis results to a text file in the analysis folder
-pypoll_result = "C:\\Users\\sharm\\Desktop\\UofT BootCamp Challenges\\python-challenge\\Pypoll\\analysis\\"
+pypoll_result = ".\\python-challenge\\Pypoll\\analysis\\"
 output_file = os.path.join(pypoll_result, "election_results.txt")
 
 with open(output_file, "w") as textfile:
